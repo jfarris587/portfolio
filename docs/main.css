@@ -29,13 +29,13 @@ a.button {
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3); }
 
 .logo svg {
-  width: 30px;
-  top: 10px;
-  position: relative; }
+  width: 30px; }
 .logo span {
   font-family: 'Archivo Black', sans-serif;
   font-size: 20px;
-  padding-left: 5px; }
+  padding-left: 5px;
+  bottom: 10px;
+  position: relative; }
 
 .devicon-container {
   margin-left: 20px;
