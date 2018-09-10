@@ -1,0 +1,23 @@
+/* UTILS */
+.margin-below {
+  margin-bottom: 40px;
+}
+
+.italicized {
+  font-weight: 200;
+  font-style: italic;
+}
+
+.bolded {
+  font-weight: 600 !important;
+}
+
+.bolded.italicized {
+  font-weight: 600 !important;
+  font-style: italic;
+}
+
+.highlight{
+  background: rgba($primary-blue, 0.2);
+  padding: 3px;
+}

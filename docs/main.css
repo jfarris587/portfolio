@@ -1,0 +1,216 @@
+/* UTILS */
+.margin-below {
+  margin-bottom: 40px; }
+
+.italicized {
+  font-weight: 200;
+  font-style: italic; }
+
+.bolded {
+  font-weight: 600 !important; }
+
+.bolded.italicized {
+  font-weight: 600 !important;
+  font-style: italic; }
+
+.highlight {
+  background: rgba(15, 255, 255, 0.2);
+  padding: 3px; }
+
+a.button {
+  background: #009e9e;
+  padding: 10px 20px;
+  border-radius: 5px;
+  color: #fff !important;
+  font-weight: 500;
+  cursor: pointer; }
+  a.button:hover {
+    text-decoration: none;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3); }
+
+.logo svg {
+  width: 30px;
+  top: 10px;
+  position: relative; }
+.logo span {
+  font-family: 'Archivo Black', sans-serif;
+  font-size: 20px;
+  padding-left: 5px; }
+
+.devicon-container {
+  margin-left: 20px;
+  text-align: center;
+  padding: 5px 0; }
+
+i[class^="devicon"] {
+  color: #3d3d42;
+  padding: 6px;
+  font-size: 70px; }
+  i[class^="devicon"]:hover {
+    color: #009e9e; }
+
+.box {
+  background: #fff;
+  padding: 40px 30px;
+  border-radius: 20px;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.25); }
+
+input {
+  display: block;
+  width: 100%;
+  margin: 10px auto;
+  border: none;
+  padding: 10px;
+  outline: none;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); }
+  input:focus {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.25); }
+
+input.message {
+  padding-bottom: 100px; }
+
+.contact-wrapper {
+  width: 85%;
+  margin: 0 auto; }
+  .contact-wrapper .button {
+    margin-top: 10px;
+    background: #5adb92;
+    width: 25%;
+    right: 0;
+    margin: 0;
+    color: #fff; }
+
+section {
+  background: url("img/bg-1.png");
+  height: 100vh; }
+  section .content {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1500px;
+    padding: 0 100px;
+    position: relative;
+    top: 45%;
+    transform: translateY(-45%); }
+  section img {
+    display: block;
+    margin: 0 auto;
+    width: 100%; }
+  section h1 {
+    font-size: 65px; }
+  section p {
+    padding-top: 30px;
+    font-size: 17px;
+    line-height: 30px; }
+
+.second {
+  background: url("img/bg-2.png");
+  color: #c0c0c1; }
+  .second p {
+    font-size: 16px;
+    line-height: 23px; }
+  .second i[class^="devicon"] {
+    font-size: 50px; }
+
+.third {
+  background: url("img/bg-3.png");
+  color: #f14b44; }
+  .third i[class^="devicon"] {
+    font-size: 50px; }
+    .third i[class^="devicon"]:hover {
+      color: #f14b44; }
+  .third .highlight {
+    background: #e7c1c0; }
+
+.fourth {
+  background: url("img/bg-4.png");
+  color: #3abfc5; }
+  .fourth i[class^="devicon"] {
+    font-size: 50px; }
+    .fourth i[class^="devicon"]:hover {
+      color: #3abfc5; }
+  .fourth .highlight {
+    background: #373e65; }
+
+.fifth {
+  background: url("img/bg-5.png");
+  color: #143938; }
+  .fifth h1, .fifth h2, .fifth h3, .fifth p {
+    text-align: center; }
+  .fifth h1 {
+    padding-bottom: 20px; }
+  .fifth p {
+    padding: 0; }
+  .fifth i[class^="devicon"] {
+    font-size: 50px; }
+    .fifth i[class^="devicon"]:hover {
+      color: #143938; }
+  .fifth .highlight {
+    background: #5adb92; }
+
+.nav {
+  width: 100%;
+  position: fixed; }
+  .nav-item {
+    width: 20%; }
+    .nav-item > * {
+      padding: 20px 50px; }
+  .nav .left {
+    text-align: left; }
+  .nav .center {
+    text-align: center;
+    width: 60%; }
+  .nav .right {
+    text-align: right; }
+
+.menu {
+  list-style: none;
+  padding: 20px 0px; }
+  .menu-item {
+    display: inline;
+    padding: 0px 18px;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 13px;
+    letter-spacing: 2px; }
+    .menu-item .selected {
+      font-weight: 700;
+      opacity: 1; }
+    .menu-item a {
+      color: #3d3d42;
+      opacity: .5; }
+      .menu-item a:hover {
+        opacity: 1; }
+
+html {
+  height: 100%; }
+
+body {
+  background: #fff;
+  font-family: 'Roboto', sans-serif;
+  text-rendering: optimizeLegibility;
+  height: 100%;
+  color: #3d3d42;
+  overflow: hidden; }
+
+h1, h2 {
+  font-family: 'Archivo Black', sans-serif; }
+
+h2 {
+  opacity: .5; }
+
+h3 {
+  font-weight: 700;
+  font-size: 22px; }
+
+h1, h2, h3, h4, h5, li, p {
+  padding: 0;
+  margin: 0; }
+
+a {
+  text-decoration: none;
+  cursor: pointer; }
+  a:hover {
+    text-decoration: none; }
+
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,19 @@
+.devicon-container{
+  margin-left: 20px;
+  text-align: center;
+  padding: 5px 0;
+
+  &:first-of-type{
+  }
+}
+
+i[class^="devicon"]{
+  color: $primary-black;
+  padding: 6px;
+
+  font-size: 70px;
+
+  &:hover{
+    color: $secondary-blue;
+  }
+}

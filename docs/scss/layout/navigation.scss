@@ -1,0 +1,54 @@
+.nav{
+  //height: 80px;
+  width: 100%;
+  position: fixed;
+
+  &-item{
+    width: 20%;
+
+    & > *{
+      padding: 20px 50px;
+    }
+  }
+
+  .left{
+    text-align: left;
+  }
+
+  .center{
+    text-align: center;
+    width: 60%;
+  }
+
+  .right{
+    text-align: right;
+  }
+}
+
+.menu{
+  list-style: none;
+  padding: 20px 0px;
+
+  &-item{
+    display: inline;
+    padding: 0px 18px;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 13px;
+    letter-spacing: 2px;
+
+    .selected{
+      font-weight: 700;
+      opacity: 1;
+    }
+
+    a{
+      color: $primary-black;
+      opacity: .5;
+
+      &:hover{
+        opacity: 1;
+      }
+    }
+  }
+}

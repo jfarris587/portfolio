@@ -1,0 +1,13 @@
+a.button{
+  background: $secondary-blue;
+  padding: 10px 20px;
+  border-radius: 5px;
+  color: $primary-white !important;
+  font-weight: 500;
+  cursor: pointer;
+
+  &:hover{
+    text-decoration: none;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, .3);
+  }
+}
